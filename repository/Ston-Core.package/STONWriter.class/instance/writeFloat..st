@@ -1,3 +1,3 @@
 writing
 writeFloat: float
-	writeStream print: float
+	writeStream nextPutAll: float greaseString
