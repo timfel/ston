@@ -1,5 +1,5 @@
 writing
 writeReference: index
 	writeStream
-		nextPut: $@;
+		nextPut: '@';
 		print: index

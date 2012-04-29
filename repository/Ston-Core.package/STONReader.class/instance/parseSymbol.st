@@ -2,7 +2,7 @@ parsing-internal
 parseSymbol
 	| string |
 	self expect: '#'.
-	readStream peek = $'
+	readStream peek = ''''
 		ifTrue: [ ^ self parseStringInternal asSymbol ].
 	string := self stringStreamContents: [ :stream |
 		[ readStream atEnd not and: [ self isSimpleSymbolChar: readStream peek ] ] whileTrue: [

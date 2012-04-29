@@ -4,17 +4,17 @@ parseValue
 	readStream atEnd ifFalse: [ 
 		(self isClassStartChar: (char := readStream peek)) 
 			ifTrue: [ ^ self parseObject ].
-		char = ${
+		char = '{'
 			ifTrue: [ ^ self parseMap ].
-		char = $[
+		char = '['
 			ifTrue: [ ^ self parseList ].
-		(char = $' or: [ char = $" ])
+		(char = '''' or: [ char = '"' ])
 			ifTrue: [ ^ self parseString ].
-		char = $#
+		char = '#'
 			ifTrue: [ ^ self parseSymbol ].
-		char = $@
+		char = '@'
 			ifTrue: [ ^ self parseReference ].
-		(char = $- or: [ char isDigit ])
+		(char = '-' or: [ char isDigit ])
 			ifTrue: [ ^ self parseNumber ].
 		(self match: 'true')
 			ifTrue: [ ^ true ].

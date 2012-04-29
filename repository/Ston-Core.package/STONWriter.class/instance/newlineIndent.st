@@ -1,5 +1,5 @@
 private
 newlineIndent
 	prettyPrint ifTrue: [ 
-		writeStream nextPut: Character cr.
-		level timesRepeat: [ writeStream tab ] ]
+		writeStream nextPut: String cr.
+		level timesRepeat: [ StringStream tab ] ]

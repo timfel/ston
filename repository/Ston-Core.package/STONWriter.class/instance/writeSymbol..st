@@ -4,7 +4,7 @@ writeSymbol: symbol
 		ifTrue: [
 			self writeString: symbol ]
 		ifFalse: [
-			writeStream nextPut: $#.
+			writeStream nextPut: '#'.
 			(self isSimpleSymbol: symbol)
 				ifTrue: [
 					writeStream nextPutAll: symbol ]

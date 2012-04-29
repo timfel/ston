@@ -2,6 +2,6 @@ private
 encodeKey: key value: value
 	self nextPut: key.
 	self prettyPrintSpace.
-	writeStream nextPut: $:.
+	writeStream nextPut: ':'.
 	self prettyPrintSpace.
 	self nextPut: value

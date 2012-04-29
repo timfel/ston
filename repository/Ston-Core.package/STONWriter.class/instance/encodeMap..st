@@ -2,7 +2,7 @@ writing
 encodeMap: pairs
 	| first |
 	first := true.
-	writeStream nextPut: ${.
+	writeStream nextPut: '{'.
 	self indentedDo: [
 		self newlineIndent.
 		pairs keysAndValuesDo: [ :key :value |
@@ -11,4 +11,4 @@ encodeMap: pairs
 				ifFalse: [ self mapElementSeparator ].
 			self encodeKey: key value: value ] ].
 	self newlineIndent.
-	writeStream nextPut: $}
+	writeStream nextPut: '$'

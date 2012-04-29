@@ -1,9 +1,9 @@
 writing
 writeObject: object listSingleton: element
 	self writeObject: object do: [
-		writeStream nextPut: $[.
+		writeStream nextPut: '['.
 		self 
 			prettyPrintSpace;
 			nextPut: element;
 			prettyPrintSpace.
-		writeStream nextPut: $] ]
+		writeStream nextPut: ']' ]
