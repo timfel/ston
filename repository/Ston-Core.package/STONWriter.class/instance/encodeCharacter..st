@@ -8,4 +8,4 @@ encodeCharacter: char
 				ifFalse: [ writeStream nextPutAll: encoding ] ]
 		ifFalse: [ 
 			writeStream nextPutAll: '\u'.
-			code printOn: writeStream base: 16 nDigits: 4 ]
+			writeStream nextPutAll: (code printPaddedWith: $0 to: 4 base: 16) ]
