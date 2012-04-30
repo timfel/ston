@@ -1,16 +1,9 @@
 {
-	"category" : "STON-Tests",
 	"classinstvars" : [
 		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
 	"instvars" : [
 		"username",
 		"password",
 		"enabled" ],
 	"name" : "STONTestUser",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"super" : "Object" }

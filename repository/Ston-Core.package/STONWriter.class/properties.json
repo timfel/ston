@@ -1,11 +1,7 @@
 {
-	"category" : "STON-Core",
 	"classinstvars" : [
-		 "stonCharacters",
-		 "stonSimpleSymbolCharacters" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "SvenVanCaekenberghe 4/27/2012 14:08",
+		"stonCharacters",
+		"stonSimpleSymbolCharacters" ],
 	"instvars" : [
 		"writeStream",
 		"prettyPrint",
@@ -14,7 +10,4 @@
 		"level",
 		"objects" ],
 	"name" : "STONWriter",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"super" : "Object" }

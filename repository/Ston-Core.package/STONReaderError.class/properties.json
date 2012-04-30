@@ -1,14 +1,7 @@
 {
-	"category" : "STON-Core",
 	"classinstvars" : [
 		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "STONReaderError",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+	"super" : "Error" }
