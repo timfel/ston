@@ -5,4 +5,4 @@ initialize
 	level := 0.
 	referencePolicy := #normal.
 	jsonMode := false.
-	objects := IdentityDictionary new
+	objects := Dictionary new
