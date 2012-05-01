@@ -4,5 +4,5 @@ stonOn: stonWriter
 	Override to customize and add a matching #fromSton: (see implementors)."
 
 	stonWriter writeObject: self streamMap: [ :dictionary |
-		self class allInstVarNames do: [ :each |
-			dictionary at: each asSymbol put: (self instVarNamed: each) ] ]
+		self class allInstanceVariableNames do: [ :each |
+			dictionary at: each asSymbol put: (self instVarAt: each) ] ]

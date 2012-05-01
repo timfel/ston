@@ -1,4 +1,4 @@
 *ston-core
 stonOn: stonWriter
 	stonWriter writeObject: self streamShortList: [ :array |
-		array add: x; add: y ]
+		array add: self x; add: self y ]

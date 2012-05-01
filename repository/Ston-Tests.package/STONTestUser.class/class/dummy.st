@@ -4,9 +4,9 @@ dummy
 	
 	| username password |
 	username := String streamContents: [ :stream |
-		stream << 'user'; print: 999 atRandom; << '@company'; print: 99 atRandom; << '.com' ].
+		stream nextPutAll: 'user'; print: 999 atRandom; nextPutAll: '@company'; print: 99 atRandom; nextPutAll: '.com' ].
 	password := String streamContents: [ :stream |
-		stream << 'secret'; print: 999 atRandom ].
+		stream nextPutAll: 'secret'; print: 999 atRandom ].
 	^ self new
 		username: username;
 		password: password;
