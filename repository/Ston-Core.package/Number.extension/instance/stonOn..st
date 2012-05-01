@@ -1,3 +1,3 @@
 *ston-core
 stonOn: stonWriter
-	stonWriter writeFloat: self asFloat
+	stonWriter writeFloat: self

@@ -8,4 +8,4 @@ encodeCharacter: chr
 				ifFalse: [ writeStream nextPutAll: encoding ] ]
 		ifFalse: [ 
 			writeStream nextPutAll: '\u'.
-			writeStream nextPutAll: (code printPaddedWith: '0' to: 4 base: 16) ]
+			writeStream nextPutAll: (code asHexDigits: 4 padded: '0') ]

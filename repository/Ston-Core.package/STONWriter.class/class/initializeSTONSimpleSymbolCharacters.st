@@ -8,5 +8,5 @@ initializeSTONSimpleSymbolCharacters
 		char := (each - 1) asCharacter.
 		(self isSimpleSymbolChar: char)
 			ifTrue: [ stonSimpleSymbolCharacters at: each put: 0 ]
-      ifFalse: [ stonSimpleSymbolCharacters at: each put: 1 ] ]
+      			ifFalse: [ stonSimpleSymbolCharacters at: each put: 1 ] ]
 
