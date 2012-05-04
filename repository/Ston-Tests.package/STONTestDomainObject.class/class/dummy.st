@@ -7,5 +7,5 @@ dummy
 		bytes: (ByteArray streamContents: [ :out | 32 timesRepeat: [ out nextPut: 255 atRandom ] ]);
 		description: (String streamContents: [ :out | 16 atRandom timesRepeat: [ out nextPutAll: 'Blah' ] ]);
     color: #(#red #green #blue) atRandom;
-    tags: #{ #(#one #two #three) atRandom. #(#alpha #beta #gamma) atRandom. #(#low #medium #high) atRandom };
+    tags: { #(#one #two #three) atRandom. #(#alpha #beta #gamma) atRandom. #(#low #medium #high) atRandom };
 		yourself
