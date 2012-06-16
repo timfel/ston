@@ -1,5 +1,7 @@
 # STON - Smalltalk Object Notation
 
+**pharo** : [![Build Status](https://secure.travis-ci.org/dalehenrich/ston.png?branch=pharo)](http://travis-ci.org/dalehenrich/ston) 
+
 
 A lightweight text-based, human-readable data interchange format 
 for class-based object-oriented languages like Smalltalk.
