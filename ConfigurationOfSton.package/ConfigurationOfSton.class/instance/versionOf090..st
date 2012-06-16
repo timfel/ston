@@ -1,0 +1,12 @@
+versions
+versionOf090: spec
+    <version: '0.9'>
+    spec
+        for: #'common'
+        do: [ 
+            spec blessing: #'development'.
+            spec author: 'dkh'.
+            spec timestamp: '6/16/2012 10:32' ].
+    spec
+        for: #'pharo'
+        do: [ spec baseline: 'Ston' with: [ spec repository: 'github://dalehenrich/ston:pharo/repository' ] ]
