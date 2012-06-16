@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"versionOf080:" : "dkh 6/16/2012 11:13",
-		"versionOf081:" : "dkh 6/16/2012 11:38",
+		"development:" : "dkh 6/16/2012 11:46",
+		"stable:" : "dkh 6/16/2012 11:46",
+		"versionOf080:" : "dkh 6/16/2012 11:46",
+		"versionOf081:" : "dkh 6/16/2012 11:46",
 		"versionOf090:" : "dkh 6/16/2012 11:11" } }

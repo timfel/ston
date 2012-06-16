@@ -1,6 +1,6 @@
 versions
 versionOf081: spec
-    <version: '0.81'>
+    <version: '0.8.1'>
     spec
         for: #'common'
         do: [ 
