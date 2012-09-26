@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #ConfigurationOfSton!
+SystemOrganization addCategory: 'ConfigurationOfSton'!
