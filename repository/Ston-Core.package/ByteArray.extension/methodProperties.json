@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"fromSton:" : "SvenVanCaekenberghe 5/15/2012 09:35:20" },
+		"fromSton:" : "SvenVanCaekenberghe 5/15/2012 09:35:20",
+		"readHexFrom:" : "SvenVanCaekenberghe 05/30/2012 22:09:47" },
 	"instance" : {
+		"readHexFrom:" : "SvenVanCaekenberghe 05/30/2012 22:09:47",
 		"stonOn:" : "SvenVanCaekenberghe 5/15/2012 09:35:20",
 		"stonProcessSubObjects:" : "SvenVanCaekenberghe 5/15/2012 09:35:20" } }
