@@ -9,4 +9,3 @@ initializeSTONCharacters
 		STONCharacters 
 			at: (escapes at: index) + 1
 			put: (escapes at: index + 1) ]
-	
